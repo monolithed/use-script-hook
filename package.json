@@ -1,0 +1,22 @@
+{
+    "name": "@monolithed/use-script",
+    "version": "0.0.1",
+    "description": "A React hook to dynamically load scripts",
+    "author": "Alexander Abashkin <monolithed@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:monolithed/use-script.git"
+    },
+    "scripts": {
+        "test": "npm prune && tsc && mocha tests",
+        "tsc": "tsc"
+    },
+    "dependencies": {
+        "@monolithed/logger": "^0.0.1",
+        "react": "^17.0.2"
+    },
+    "devDependencies": {
+        "typescript": "^4.3.5"
+    }
+}

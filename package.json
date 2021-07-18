@@ -9,7 +9,8 @@
         "url": "git@github.com:monolithed/use-script.git"
     },
     "scripts": {
-        "test": "npm prune && tsc && mocha tests",
+        "test": "jest",
+        "jest": "ts-jest",
         "tsc": "tsc"
     },
     "dependencies": {
@@ -19,6 +20,8 @@
         "react": "^17.0.2"
     },
     "devDependencies": {
+        "@types/react": "^17.0.14",
+        "react": "^17.0.2",
         "typescript": "^4.3.5"
     }
 }

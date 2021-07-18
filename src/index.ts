@@ -9,7 +9,7 @@ type Result = {
 };
 
 const logger = new Logger({
-    title: 'LazyService::useDynamicScript'
+    title: 'LazyService::useScript'
 });
 
 const defaultProps = {

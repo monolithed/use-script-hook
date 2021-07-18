@@ -13,7 +13,9 @@
         "tsc": "tsc"
     },
     "dependencies": {
-        "@monolithed/logger": "^0.0.1",
+        "@monolithed/logger": "^0.0.1"
+    },
+    "peerDependencies": {
         "react": "^17.0.2"
     },
     "devDependencies": {

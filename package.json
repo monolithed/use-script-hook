@@ -1,12 +1,12 @@
 {
-    "name": "@monolithed/use-script",
+    "name": "@monolithed/use-script-hook",
     "version": "0.0.1",
     "description": "A React hook to dynamically load scripts",
     "author": "Alexander Abashkin <monolithed@gmail.com>",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git@github.com:monolithed/use-script.git"
+        "url": "git@github.com:monolithed/use-script-hook.git"
     },
     "scripts": {
         "test": "jest",

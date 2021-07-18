@@ -1,1 +1,1 @@
-export {useScript} from './use-script';
+export {useScript} from './use-script-hook';

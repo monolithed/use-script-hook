@@ -26,6 +26,7 @@
 #.npmrc
 /node_modules
 npm-debug.log
+package-lock.json
 
 # --------------------------
 # Project

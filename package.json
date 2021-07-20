@@ -9,9 +9,9 @@
         "url": "git@github.com:monolithed/use-script-hook.git"
     },
     "scripts": {
-        "test": "jest",
-        "jest": "ts-jest",
-        "tsc": "tsc"
+        "test": "npm prune && tsc",
+        "tsc": "tsc",
+        "prepublishOnly": "tsc"
     },
     "dependencies": {
         "@monolithed/logger": "^0.0.1"

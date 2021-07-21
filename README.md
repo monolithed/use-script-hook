@@ -38,6 +38,24 @@ const LazyService: FunctionComponent<Props> = ({src}): JSX.Element => {
 };
 ```
 
+## Attributes
+
+**async** (default is true)
+**src** (required)
+
+```typescript
+const {loaded, failed} = useScript({src, async});
+```
+
+```
+## Options
+
+**verbose** — a boolean indicator of sending states to the console
+
+```typescript
+const {loaded, failed} = useScript({src}, {verbose: true});
+```
+
 ## Tests
 
 ```

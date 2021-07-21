@@ -47,7 +47,6 @@ const LazyService: FunctionComponent<Props> = ({src}): JSX.Element => {
 const {loaded, failed} = useScript({src, async});
 ```
 
-```
 ## Options
 
 **verbose** — a boolean indicator of sending states to the console

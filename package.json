@@ -1,6 +1,6 @@
 {
     "name": "@monolithed/use-script-hook",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "description": "A React hook to dynamically load scripts",
     "author": "Alexander Abashkin <monolithed@gmail.com>",
     "license": "MIT",
